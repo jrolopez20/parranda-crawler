@@ -44,7 +44,7 @@ def get_last_status():
     """Read last known status from file"""
     try:
         if os.path.exists(STATUS_FILE):
-            with open(STAdTUS_FILE, 'r') as f:
+            with open(STATUS_FILE, 'r') as f:
                 return f.read().strip()
     except Exception as e:
         logging.error(f"Error reading status file: {e}")
