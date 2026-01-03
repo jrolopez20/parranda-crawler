@@ -116,7 +116,10 @@ def send_email():
                     "To": [
                         {
                             "Email": RECIPIENT_EMAIL
-                        }
+                        },
+                        {
+                            "Email": "rfsosa12@gmail.com"
+                        },
                     ],
                     "Subject": f" {PRODUCT_NAME} ya está disponible!",
                     "HTMLPart": f"""
